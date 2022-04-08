@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-/**print possib;le combinatio of single dgt
+/**
+ * main - prints -
+ *print possib;le combinatio of single dgt
  * return zero success
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n =48; n< 58; n++)
+	for (n = 48; n < 58; n++)
 	{
 	       	putchar(n);
 		if (n != 57)
@@ -17,5 +20,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
