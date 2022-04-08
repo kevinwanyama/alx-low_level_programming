@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* main - main last dgt*/
-/*Return: ALways 0 (Success)*/
-/* betty style doc for function main goes there */
+/**
+ * main - main checks if the last digit is greatter
+ * the program outputs values with comparison to 5
+ * Return: ALways 0 (Success)
+ */
 int main(void)
 {
 		int n;
