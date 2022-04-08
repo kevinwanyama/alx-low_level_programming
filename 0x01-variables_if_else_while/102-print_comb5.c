@@ -1,29 +1,47 @@
 #include <stdio.h>
-
-/*
- * possible combi on two dgtssu
- * return zero on success
+#include <stdlib.h>
+/**
+ * main block
+ * prints possible different combinatyions
+ * returns :0
  */
 int main(void)
 {
-	int i, j;
+	int c = 0;
+	int fd;
+	int ld;
 
-	for (i = 0; i <= 98; i++)
+	int c2
+	int fd2
+	int ld2
+	
+	while (c <= 98)
 	{
-		for (j = i + 1;j <= 99;j++)
+		fd = (c / 10 + '0');
+		ld = (c % 10 + '0');
+		c2 = 0;
+		while (c2 <= 99)
 		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((j / 10) + '0');
-			putchar((j / 10) + '0');
+			fd2 = (c2 / 10 + '0');
+			ld2 = (c2 % 10 + '0');
 
-			if(i == 98 && j == 99)
-				continue;
-			putchar(',');
-			putchar(' ');		
+			if (c < c2)
+			{
+				putchar(fd);
+				putchar(ld);
+				putchar(' ');
+				putchar(fd2);
+
+				if (c != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			c2++;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
-}	
+}
