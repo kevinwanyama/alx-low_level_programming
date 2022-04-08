@@ -31,6 +31,7 @@ int main(void)
 				putchar(ld);
 				putchar(' ');
 				putchar(fd2);
+				putchar(ld2);
 
 				if (c != 98)
 				{
