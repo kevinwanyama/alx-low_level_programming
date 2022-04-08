@@ -1,27 +1,33 @@
 #include <stdio.h>
 /**
- * all posible combi of two digits
- * return zero success
+ * main - main block
+ * a program tht prints all possible diff combination of two digitd
+ *  Return :0 always 
  */
 int main(void)
 {
-	int n, m;
-	
-	for (n = 48; n <= 56; n++)
+	int c;
+	int d = 0;
+
+	while (d < 10)
 	{
-		for (m = 49; m <= 57; m++)
+		c = 0;
+		while (c < 10)
 		{
-			if (m > n)
+			if (d != c && d < c)
 			{
-				putchar(n);
-				putchar(n);
-				if (n != 56 || m != 57)
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			c++;
 		}
+		d++;
 	}
 	putchar('\n');
 	return (0);
