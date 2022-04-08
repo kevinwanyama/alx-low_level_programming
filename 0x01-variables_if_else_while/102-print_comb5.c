@@ -11,9 +11,9 @@ int main(void)
 	int fd;
 	int ld;
 
-	int c2
-	int fd2
-	int ld2
+	int c2;
+	int fd2;
+	int ld2;
 	
 	while (c <= 98)
 	{
