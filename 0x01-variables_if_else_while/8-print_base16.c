@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
+ * main- main function tha prints the sisten numbers
  * print base 16 numbers in lowercase'
  * new line below
  * success returns zero
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
@@ -13,7 +15,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for(ch = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
