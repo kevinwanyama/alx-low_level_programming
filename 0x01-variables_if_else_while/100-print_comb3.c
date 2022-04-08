@@ -2,7 +2,7 @@
 /**
  * main - main block
  * a program tht prints all possible diff combination of two digitd
- *  Return :0 always 
+ *  Return: Always 0 (success)
  */
 int main(void)
 {
@@ -18,7 +18,6 @@ int main(void)
 			{
 				putchar('0' + d);
 				putchar('0' + c);
-
 				if (c + d != 17)
 				{
 					putchar(',');
