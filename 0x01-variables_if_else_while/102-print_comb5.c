@@ -14,7 +14,6 @@ int main(void)
 	int c2;
 	int fd2;
 	int ld2;
-	
 	while (c <= 98)
 	{
 		fd = (c / 10 + '0');
@@ -24,7 +23,6 @@ int main(void)
 		{
 			fd2 = (c2 / 10 + '0');
 			ld2 = (c2 % 10 + '0');
-
 			if (c < c2)
 			{
 				putchar(fd);
@@ -32,7 +30,6 @@ int main(void)
 				putchar(' ');
 				putchar(fd2);
 				putchar(ld2);
-
 				if (c != 98)
 				{
 					putchar(',');
