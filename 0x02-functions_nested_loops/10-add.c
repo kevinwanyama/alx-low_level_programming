@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * add :add two intergert
- * Description:the program adds two  intergers a and b and gives out the output as the sum of the sum (add)
+ * add :add two intergerot
+ * Description:the program adds two  intergers @a and @b 
+ * and gives out the output as the sum of the sum (add)
  * @a int: integer to be addeed to b
  * @b int: integer to be added to in a
- * Return results sum a and b
+ * Return results sum a and b 'add'
  * Add :this is the sum of a and b
  * Return: 'add'  the reurned value is sum of the numbers
  */
