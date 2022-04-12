@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add :add two intergert
- *the program adds tw intergers a+b and gives out the output
+ * description:the program adds tw intergers a+b and gives out the output
  * @a int: integer to be addeed to b
  * @b int: integer to be added to in a
  * Return results sum a and b
