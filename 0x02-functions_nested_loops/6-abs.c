@@ -2,7 +2,8 @@
 /**
  * _abs - compute absoulute value of int
  * @n: the int to check
- * Return :int abs
+ * Returns:int abs as the output
+ * return: int abs as output
  */
 int _abs(int n)
 {
