@@ -3,7 +3,7 @@
  * main - find and print the first 98 fibonacci numbers
  * starting with 1 and 2
  * followed by a new line
- * Return: Always 0 (success)
+ * Return: Always 0 (success)i
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	
 	for (i = 1; i < 91; i++)
 	{
-		printf("' %lu", k);
+		printf(", %lu", k);
 		k = k + j;
 		j = k - j;
 	}
@@ -29,7 +29,7 @@ int main(void)
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", k1 + (k2 / 1000000000));
-		printf("%lu"' k2 % 1000000000);
+		printf("%lu", k2 % 1000000000);
 		k1 = k1 + j1;
 		j1 = k1 - j1;
 		k2 = k2 + j2;
