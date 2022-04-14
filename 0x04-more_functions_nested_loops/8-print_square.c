@@ -1,28 +1,25 @@
 #include "main.h"
 /**
- *print_square - prints square of size size.
- *@size: size of square.
+ *more_numbers - prints 0 - 14.
  *
  *Return: void.
  */
-void print_square(int size)
+void more_numbers(void)
 {
 	int i, j;
 
-	if (size <= 0)
+	i = 0;
+	while (i < 10)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 1; i <= size; i++)
+		j = 0;
+		while (j < 15)
 		{
-			_putchar('#');
-			for (j = 1; j < size; j++)
-			{
-				_putchar('#');
-			}
-		_putchar('\n');
+			if (j >= 10)
+				_putchar('0' + j / 10);
+			_putchar('0' + j % 10);
+			j++;
 		}
+		_putchar('\n');
+		i++;
 	}
 }
