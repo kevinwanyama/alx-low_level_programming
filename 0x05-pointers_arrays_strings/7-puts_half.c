@@ -4,7 +4,7 @@
  * @str: char array string type
  * Description: If odd number of a chars, print (length - 1) / 2
  */
-void put_half(char *str)
+void puts_half(char *str)
 {
 	int i;
 
